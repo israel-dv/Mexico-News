@@ -15,3 +15,7 @@ You can use this repo for work with him and learn more about Flutter.
 
 ![GitHub Logo](mdFiles/screen1.png) ![GitHub Logo](mdFiles/screen2.png)
 
+##Find her in the Play Store as a MX Noticias.
+![GitHub Logo](mdFiles/playStore.png)
+
+
