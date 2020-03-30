@@ -9,7 +9,7 @@
 
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="MX News"
+        android:label="MX Noticias"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

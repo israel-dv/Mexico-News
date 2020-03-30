@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mexico_news/src/provider/NewsProvider.dart';
 import 'package:mexico_news/src/screens/Home.dart';
 import 'package:mexico_news/src/screens/NewsDetail.dart';
+import 'package:mexico_news/src/widgets/ViewWeb.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,7 +31,8 @@ class MyApp extends StatelessWidget {
       ),
       home: Home(),
       routes: {
-        'newsDetail' : (BuildContext context) => NewsDetail(),
+        'newsDetail'  : (BuildContext context) => NewsDetail(),
+        'viewWeb'     : (BuildContext context) => ViewWeb()
       },
     );
   }

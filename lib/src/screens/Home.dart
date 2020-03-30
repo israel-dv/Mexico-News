@@ -30,7 +30,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
       //length: 7,
        Scaffold(
         appBar: AppBar(
-          title: Text('IMDev News'),
+          title: Text('MX Noticias'),
           bottom: TabBar(
             onTap: (index){
               setState(() {});
@@ -70,7 +70,6 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
             builder: (BuildContext context, AsyncSnapshot<List<Notice>> snapshot){
               return snapshot.hasData ? ListNews(size: size, news: snapshot.data,)
                   : Center(child: CircularProgressIndicator(valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),),);
-
             }
         );
       }
